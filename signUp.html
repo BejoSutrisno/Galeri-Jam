@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precious Watch</title>
+    <link rel="stylesheet" href="signUp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>   
+    <video src="assets/video/video login.mp4" autoplay loop muted></video>
+    <div class="wrapper">
+        <form action="">
+            <h1>Let's create <br> your account</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" >
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email" >
+                <i class='bx bxs-envelope'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" placeholder="Password" >
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            
+          <div class="show-password">
+                <label>
+                    <input type="checkbox" id="show-password">Show Password
+                    
+                </label>
+            </div> 
+           
+            <button type="submit" class="btn">Sign Up</button>
+            <div class="sign-up">
+                <p>Already have an account? <a href="#">Login</a></p>
+            </div>
+            <div id="error-messages" style="color: red;"></div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="pass.js"></script>
+</html>
